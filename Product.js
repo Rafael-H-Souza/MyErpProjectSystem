@@ -17,9 +17,6 @@ module.exports = class Product
         console.log(`Cod: ${this.cod}\tName: ${this.name}\tCategory: ${this.category}\tUnits:${this.units}\n`+
         `Descriptions: ${this.descriptions}\tValue: ${this.value}\t Weight: ${this.weight}`)
     }
-    erroChecking(erro)
-    {
-        return `Value for ${erro} is invalid`
-    }
+    
      
 }
