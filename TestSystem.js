@@ -1,4 +1,6 @@
 const Product = require("./Product")
+//id, name,brand, category,  descriptions , unity, value, weight, entryDate, barCode
+const p1 = new Product(9, 'notebook', 'Acer','Electric Electronic', 'Portable Compiler 15 inch, sdd 480, memory ram 8Gb',1,2989.99, 1.350, "01/04/2022","123456789987")
 
-const p1 = new Product( 1,'iphone se 2', 'smartphone','iphone se segunda geração',2999.90, 1, 0.750 )
-p1.getProduct()
+console.log(p1)
+
